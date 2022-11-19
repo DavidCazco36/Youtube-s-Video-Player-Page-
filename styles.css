@@ -1,21 +1,21 @@
 *{
   box-sizing: border-box;
   margin:0;
-  border: 1px solid red;
+  
 }
 html{
   height:100%;
 }
 body{
   height:100%;
-  background-color: rgb(28, 25, 25);
+  background-color: rgb(17, 17, 17);
 }
 
 
 
 header{
   height:57px;
-  background-color:black;
+  background-color:rgb(17, 17, 17);
   display:flex;
 }
 
@@ -51,7 +51,6 @@ header{
   display:flex;
   align-items:center;
   justify-content:center;
-  width:250px;
   margin:auto auto;
 }
 .search-bar form{
@@ -61,29 +60,64 @@ header{
   justify-content:center;
 }
 .search-bar form input{
+  display:flex;
   border-radius: 20px 0px 0px 20px;
   outline: 0px;
   margin:0px;
   height:40px;
   width:500px;
+  background-color:rgb(17, 17, 17);
+  border-style: none;
+  border:1px solid rgb(60, 60, 60);
+  color:white;
+  font-size: 18px;
+  transform-origin: ;
 }
 .search-bar button{
+  background-color:rgb(17, 17, 17);
   background-image:url('media/search-icon.png');
   background-repeat:no-repeat;
   height:44px;
   width:50px;
   background-position:center;
   border-radius: 0px 20px 20px 2px;
+  border-style: none;
 }
+
 
 
 .user-buttons{
   display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:space-between;
+  margin-right:30px;
+  width:150px;
 }
 .user-buttons button{
-  margin:10px;
-height:20px;
-width:20px;
+  height:40px;
+  width:40px;
+  border-radius:20px;
+  background-color:rgb(17, 17, 17);
+  border-style: none;
 }
+#b1{
+  background-image:url('media/camara-icon.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+#b2{
+  background-image:url('media/noti-icon.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+#b3{
+  background-image:url('media/pfp-icon.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+
+
