@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   margin:0;
-  border: 1px solid red
+  border: 1px solid red;
 }
 html{
   height:100%;
@@ -10,13 +10,19 @@ body{
   height:100%;
   background-color: rgb(28, 25, 25);
 }
+
+
+
 header{
-  height:40px;
+  height:57px;
   background-color:black;
   display:flex;
 }
+
+
+
 .burger-logo{
-  margin: auto 0px auto 10px;
+  margin: auto 0px auto 20px;
   display:flex;
   align-items:center;
 }
@@ -31,22 +37,53 @@ header{
   align-items:center;
   position:relative;
 }
-#link-burger-hover{
-  margin: auto auto;
-  display:flex;
-  align-items:center;
-  position:relative;
-}
 .burger{
   width:30px;
 }
 .logo{
-  width:80px;
+  width:100px;
   margin-left:0px;
 }
+
+
+
 .search-bar{
-  display:inline-block;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   width:250px;
-  text-align:center;
-  margin:auto auto ;
+  margin:auto auto;
+}
+.search-bar form{
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.search-bar form input{
+  border-radius: 20px 0px 0px 20px;
+  outline: 0px;
+  margin:0px;
+  height:40px;
+  width:500px;
+}
+.search-bar button{
+  background-image:url('media/search-icon.png');
+  background-repeat:no-repeat;
+  height:44px;
+  width:50px;
+  background-position:center;
+  border-radius: 0px 20px 20px 2px;
+}
+
+
+.user-buttons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.user-buttons button{
+  margin:10px;
+height:20px;
+width:20px;
 }
